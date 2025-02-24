@@ -1,0 +1,71 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #007bff;
+}
+
+.card {
+    border: none;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.list-group-item {
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.list-group-item:last-child {
+    border-bottom: none;
+}
+
+#taskList .list-group-item,
+#friendList .list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#taskList .btn-sm,
+#friendList .btn-sm {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.75rem;
+}
+
+#welcomeMessage {
+    font-weight: bold;
+}
+
+#streakCount {
+    color: #28a745;
+    font-weight: bold;
+}
+
+#tasksCompleted,
+#friendTasksCompleted {
+    font-weight: bold;
+}
+
+#aiTask {
+    font-style: italic;
+    color: #6c757d;
+}
